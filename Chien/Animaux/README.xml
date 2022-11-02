@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Animaux</name>
+    </assembly>
+    <members>
+        <member name="T:Animaux.Chien">
+            <summary>
+            Cette classe est utilisée pour initialisé un ou plusieurs chien(s)
+            <code>
+            Chien maClasse = new Chien();
+            maClasse.CalculerAge(vraiAge,trancheAge)
+            </code>
+            <code>
+            Chien maClasse = new Chien();
+            maClasse.Aboyer()
+            </code>
+            </summary>
+        </member>
+        <member name="M:Animaux.Chien.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="nom">C'est le nom du chien</param>
+            <param name="age">L'âge du chien</param>
+            <param name="race">La race du chien</param>
+        </member>
+        <member name="E:Animaux.Chien.PositionChanged">
+            <summary>
+            Cette event se déclenche lorsque la position change
+            </summary>
+        </member>
+        <member name="M:Animaux.Chien.Aboyer">
+            <summary>
+            Cette fonction est simplement présente pour donner l'aboiement du chien.
+            </summary>
+            <returns>Cette retourne une string décrivant comment aboit le chien</returns>
+        </member>
+        <member name="M:Animaux.Chien.CalculerAge(System.Int32,System.String)">
+            <summary>
+            Cette fonction est simplement présente pour donner dans quelle tranche d'âge se situe le chien.
+            </summary>
+            <param name="vraiAge">L'âge du chien</param>
+            <param name="trancheAge">La tranche d'âge du chien</param>
+            <returns>Cette fonction retourne la tranche d'âge</returns>
+        </member>
+    </members>
+</doc>
