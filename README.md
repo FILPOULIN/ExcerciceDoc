@@ -14,7 +14,7 @@ Vous devez installer ceci avant de pouvoir utilisé ce projet sur votre ordinate
 
 ## Documentation :
 
-* [README](Chien\Animaux\README.md)
+* [README](Chien/Animaux/README.md)
 
 
 
